@@ -1,0 +1,53 @@
+/*EL QUE ESTÁ EN USO ES ESTE*/
+*{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'PT Serif', serif;
+}
+
+body{
+	background-color: #EDEDED;
+	/*background-color: red;*/
+}
+
+#formuStyle{
+	background-color: #FDFDFD;
+	border: 1px solid #ABABAB;
+	border-radius: 25px;
+}
+
+#filtroStyle{
+	background-color: #86D082;
+	border: 1px solid #ABABAB;
+	border-radius: 25px;
+}
+
+@media(min-width: 526px){
+	.cuerpoCard{
+		height: 100px;
+	}
+	.cuerpoCard > h3{
+		visibility: hidden;
+	}
+	.imgCard{
+		height: 150px;
+	}
+}
+
+@media(min-width: 768px){
+	.cuerpoCard{
+		height: 160px;
+	}
+	.cuerpoCard > h3{
+		visibility: visible;
+	}
+}
+
+@media(min-width: 1080px){
+	.cuerpoCard{
+		height: 100px;
+	}
+	.imgCard{
+		height: 320px;
+		width: 250px;
+	}
+}
